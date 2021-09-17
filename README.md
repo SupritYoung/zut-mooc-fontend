@@ -5,8 +5,11 @@
 
 ## 摘要
 随着科技的不断变迁，信息技术的不断迭代升级。人们对于互联网方方面面的需求都开始涌现了出来，这其中就包括对于在线教育的需求。如今，大家都希望能够活到老、学到老，不管是职场人士、高校老师，还是渴望学习更多知识的在校学生，对于在线教育网站的需求已经非常迫切。
+
 新冠疫情以来，由于全国实行居家隔离，所有的中小学、高校都不得不采用线上授课这一方式。通过这次疫情，可以说在线教育的理念已经大大深入人心，几乎所有的人都亲身参与和感受到了在线教育所带来的魅力。所以在线教育将会成为未来教育的一个新势力。
+
 我所设计并实行的网络课程网站，在技术上使用了目前最为流行的一些框架和技术，后端包括Springboot、SpringMVC、SpringCloud、MybatisPlus、Nacos；前端包括Vue、JavaScript、Node.js、Nginx；推荐算法使用了基于物品的协同过滤算法，相比于其他简单的推荐算法而言，此类算法更加人性化，也能够更加准确地实现对用户的个性化推荐，从而避免信息冗杂。
+
 经过测试，系统各方面功能如期运行，性能指标合理，推荐算法功能实现符合预期，并给出相应的推荐理由。
 
 ## 系统设计图
@@ -29,6 +32,7 @@
 | 服务器操作系统   | Linux CentOS                     |
 
 ### 系统文件架构
+```
 zutmooc                 		// 后端根项目
 ├── common                      // 通用代码层
 │       └── common_util             // 工具类
@@ -41,3 +45,14 @@ zutmooc                 		// 后端根项目
 │       └── service_order           // 订单模块
 │       └── service_ucenter         // 用户模块
 │       └── service_vod             // vod视频存储
+│       └── service_oss             // 阿里云oss文件存储
+```
+
+## 运行截图
+![image](https://user-images.githubusercontent.com/30597946/133762935-b1e447c8-fb3d-45bd-bb83-c79e6a2d449e.png)
+![image](https://user-images.githubusercontent.com/30597946/133762954-a05fec9d-172b-44a0-8194-829b89d52ed6.png)
+![image](https://user-images.githubusercontent.com/30597946/133762961-5fe3bae0-66ba-4ce5-99c1-694d353dd8cd.png)
+![image](https://user-images.githubusercontent.com/30597946/133762984-d88c829a-462d-4968-ada8-5fd7ef17350e.png)
+
+
+
